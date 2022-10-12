@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body {
+    background:white;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.MainBar {
+    background: darkgrey;
+    padding: 1em;
+    .logo{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1em;
+        span {
+            color: darkorchid;
+        }
+    }
+
+    
+
+    
+    nav {
+      display: none;
+      
+    }
+        
+    .container {
+       display: flex;
+      place-content: space-between;
+     }
+    .mobile-menu {
+        cursor: pointer;
+        
+      }
+    
+}
+
+
+
+nav.mobile-menu {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: #444444;
+    height: 100vh;
+    padding: 1em;
+    .mobile-menu-exit{
+        display: block;
+        float: right;
+        width: 1em;
+        height: 1em;
+        cursor: pointer;
+        
+       }
+    ul.PrimaryBar{
+        margin-top: 5em;
+        list-style: none;
+
+    } 
+    li {
+        a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-exit {
+        display: none;
+        opacity: 0%;
+        cursor: not-allowed;
+    }
+
+    .MainBar .container {
+        display: grid;
+        grid-template-columns: 180px auto;
+        
+
+    }
+
+    .MainBar nav {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+
+        ul {
+            display: flex;
+        }
+
+        a {
+            color: black;
+            font-size: 1em;
+            padding: .1em 1em;
+            
+        }
+
+        ul.PrimaryBar {
+            margin: 0;
+            list-style: none;
+        }
+        li.Home {
+            font-weight: bold;
+        }
+    }
+}
+.Buttons{
+    padding-top: 3em;
+    text-align: center;
+     a{
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         padding: 1em .5em ;
+         border-radius: 5em;
+        
+     }
+    font-weight: bold;
+}
+.DL {
+    background: rgb(189, 36, 36)
+}
+.Center {
+    text-align: center;
+}
