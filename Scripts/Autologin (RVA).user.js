@@ -2,7 +2,7 @@
 // @name         Autologin (RVA)
 // @namespace    https://www.RVAFixes.tk/
 // @version      0.1
-// @description  Autologin To Buzz! (Buzz API fix needed for this to work)
+// @description  Autologin To Buzz! (works well with buzz api fix)
 // @author       wickedstar
 // @match        https://wen.geniussis.com/PublicWelcome.aspx
 // @match        https://wen.geniussis.com/PublicWelcome.aspx*
