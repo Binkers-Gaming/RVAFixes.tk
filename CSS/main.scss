@@ -14,7 +14,7 @@ body {
         color: black;
         font-size: 1em;
         span {
-            color: darkred;
+            color: darkorchid;
         }
     }
 
@@ -122,4 +122,19 @@ nav {
             font-weight: bold;
         }
     }
+}
+.Buttons{
+    padding-top: 3em;
+    text-align: center;
+     a{
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         padding: 1em .5em ;
+         border-radius: 5em;
+        
+     }
+    font-weight: bold;
+}
+.DL {
+    background: rgb(189, 36, 36)
 }

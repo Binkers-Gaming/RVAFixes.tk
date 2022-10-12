@@ -18,7 +18,7 @@ body {
 }
 
 .MainBar .logo span {
-  color: darkred;
+  color: darkorchid;
 }
 
 .MainBar nav {
@@ -116,5 +116,22 @@ nav li a {
   .MainBar nav li.Home {
     font-weight: bold;
   }
+}
+
+.Buttons {
+  padding-top: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Buttons a {
+  text-decoration: none;
+  color: white;
+  padding: 1em .5em;
+  border-radius: 5em;
+}
+
+.DL {
+  background: #bd2424;
 }
 /*# sourceMappingURL=main.css.map */
