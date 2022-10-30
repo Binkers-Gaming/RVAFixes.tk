@@ -4,7 +4,6 @@
 // @version      0.1
 // @description  Autologin To Buzz! (works well with buzz api fix)
 // @author       wickedstar
-// @match        https://wen.geniussis.com/PublicWelcome.aspx
 // @match        https://wen.geniussis.com/PublicWelcome.aspx*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=geniussis.com
 // @grant        none
