@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 body {
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221, 199, 199,1) 0%, rgba(198, 206, 194,1) 97%);
+  background: radial-gradient(circle,rgb(255, 255, 255) 0%,rgb(136, 128, 128) 0%,rgb(255, 255, 255) 97%)
   margin: 0;
   font-family: 'Poppins';
 }
