@@ -2,7 +2,7 @@
 // @name         Google Suite Fix
 // @namespace    https://www.RVAFixes.tk/
 // @version      0.1
-// @description  Swapping your User over seince 2022!
+// @description  Swapping your User over sense 2022!
 // @author       Binkers Gaming / Chris
 // @match        *://docs.google.com/document/u/0/*
 // @match        *://drive.google.com/drive/u/0/my-drive/*
