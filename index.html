@@ -1,57 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RVA Fixes -- Made With Care</title>
-    <link rel="stylesheet" href="CSS/main.css">
-    <style>
-        h1 {text-align: center;}
-    </style>
+    <title>RVA Fixes</title>
 </head>
 <body>
-    <div class="MainBar">
-        <div class="container">
-            <a class="logo" href="index.html"><span>RVA</span>Fixes</a>
-
-            <img id="mobile-cta"  class="mobile-menu" src="UI/menu.svg" alt="Open Navigation">
-
-            <nav>
-                <img id="mobile-exit" class="mobile-menu-exit" src="UI/close.svg" alt="Close Navigation">
-                <ul class="PrimaryBar">
-                    <li class="Home"><a href="index.html">Home</a></li>
-                    <li class="Downloads"><a href="Downloads.html">Downloads</a></li>
-                </ul>
-
-            </nav>
-        </div>
-    </div>
-    
-<div text-align: center;>
-    <b>
-    <h1> This is a collection of tampermonkey <a href="Downloads.html" style="text-decoration: none;">scripts</a> to enhance your RVA experince. </h1>
-        <br>
-        <h1><img src='https://i.pinimg.com/originals/b8/82/0f/b8820f5fdb54759456e81c94d9692f21.gif' onmouseover="this.src='https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif';" onmouseout="this.src='https://i.pinimg.com/originals/b8/82/0f/b8820f5fdb54759456e81c94d9692f21.gif';" /></h1>
-        <br>
-</div>    
-    <script>
-
-        const mobileBtn = document.getElementById('mobile-cta')
-              nav = document.querySelector('nav')
-              mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-            nav.classList.add('mobile-menu');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('mobile-menu');
-        })
-
-
-
-    </script>
-
-
+<h1 id="hover" class="myHeader" onclick="window.location.href='https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo';">RVA FIXES</h1>
+  <div class="horizontal-center">
+ <button onclick="window.location.href='https://rvafixes.tk/Scripts/Autologin%20(RVA).user.js';" id="hover">Autologin</button>
+  
+<button onclick="window.location.href='https://rvafixes.tk/Scripts/Buzz%20API%20Fix.user.js';" id="hover">Buzz API Fix</button>
+  
+<button onclick="window.location.href='https://rvafixes.tk/Scripts/Google%20Suite%20Fix.user.js';" id="hover">google suite Fix</button>
+  <br>
+<button onclick="window.location.href='https://rvafixes.tk/Scripts/Zoom%20Browser%20Autojoin.user.js';" class="last" id="hover">Zoom join from browser</button>
+  </div>
 </body>
 </html>
